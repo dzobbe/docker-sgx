@@ -8,4 +8,4 @@ host and you have to provide it to the container when you run it:
 docker-compose up
 ```
 
-SDK is installed under `/opt/intel/sgxsdk`. You should do:
+SDK is installed under `/opt/intel/sgxsdk`. 
