@@ -1,0 +1,9 @@
+version: '2'
+services:
+   sgxenabled-container:
+       build:
+           context: ./
+           dockerfile: ./Dockerfile  
+       devices:
+         - "/dev/isgx:/dev/isgx"
+       network_mode: host
